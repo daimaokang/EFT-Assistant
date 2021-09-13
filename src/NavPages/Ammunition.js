@@ -109,7 +109,7 @@ function Ammunition () {
                 <h2 className='caliber'>7.62x54mm</h2>
                 <h5 className='compatible-weapons'>GUNS</h5>
                 {ammo.map( (ammoData) => {
-                    if (ammoData.name.split(' ')[0] === '7.62x54mmR') {
+                    if (ammoData.name.split(' ')[0] === '7.62x54R') {
                         return(
                             <div className='round-container' key={ammoData.id}>
                                 <Link
