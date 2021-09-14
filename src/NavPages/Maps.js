@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Maps () {
     //initialize maps state
-    let [maps, setMaps] = useState({factory: 1, customs: 2})
+    let [maps, setMaps] = useState({})
 
     //fetch data from public github repository
     //idea to utilize raw link from https://stackoverflow.com/questions/63131453/how-to-fetch-data-from-a-particular-github-txt-file-in-html-page-via-javascript
@@ -18,6 +18,12 @@ function Maps () {
     return (
         <div className='maps-container'>
             <h1>Maps</h1>
+            {Object.entries(maps).map( (mapEntry) => { return (
+                <div className='map-container' key={mapEntry[1].id}>
+                    <h2>{mapEntry[1].locale.en}</h2>
+                </div>
+            )})}
+
             {/* <div className='map-container'>
                 <Link to='/Maps/Customs'>
                     <img 
