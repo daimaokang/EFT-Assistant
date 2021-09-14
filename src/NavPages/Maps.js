@@ -18,16 +18,11 @@ function Maps () {
     return (
         <div className='maps-container'>
             <h1>Maps</h1>
-            {Object.entries(maps).map( (mapEntry) => { return (
-                <div className='map-container' key={mapEntry[1].id}>
-                    <h2>{mapEntry[1].locale.en}</h2>
-                </div>
-            )})}
 
-            {/* <div className='map-container'>
+            <div className='map-container'>
                 <Link to='/Maps/Customs'>
                     <img 
-                        src=''
+                        src='https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/9/9f/Customs_Banner.png'
                         className='map-icon'
                         alt='Customs'
                     />
@@ -37,9 +32,7 @@ function Maps () {
             <div className='map-container'>
                 <Link to='/Maps/Factory'>
                     <img 
-                        src=''
-                        className='map-icon'
-                        alt='Factory'
+                        src='https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/1/1a/Factory-Day_Banner.png'
                     />
                     <h4 className='map-name'>Factory</h4>
                 </Link>
@@ -47,7 +40,7 @@ function Maps () {
             <div className='map-container'>
                 <Link to='/Maps/Interchange'>
                     <img 
-                        src=''
+                        src='https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/3/3e/Banner_interchange.png'
                         className='map-icon'
                         alt='Interchange'
                     />
@@ -55,19 +48,19 @@ function Maps () {
                 </Link>
             </div>
             <div className='map-container'>
-                <Link to='/Maps/Labs'>
+                <Link to='/Maps/The-Lab'>
                     <img 
-                        src=''
+                        src='https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/d/d7/TheLabBanner.png'
                         className='map-icon'
                         alt='Labs'
                     />
-                    <h4 className='map-name'>Labs</h4>
+                    <h4 className='map-name'>The Lab</h4>
                 </Link>
             </div>
             <div className='map-container'>
                 <Link to='/Maps/Reserve'>
                     <img 
-                        src=''
+                        src='https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/f4/Reserve.png'
                         className='map-icon'
                         alt='Reserve'
                     />
@@ -77,7 +70,7 @@ function Maps () {
             <div className='map-container'>
                 <Link to='/Maps/Shoreline'>
                     <img 
-                        src=''
+                        src='https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/d/d5/Banner_shoreline.png'
                         className='map-icon'
                         alt='Shoreline'
                     />
@@ -87,13 +80,13 @@ function Maps () {
             <div className='map-container'>
                 <Link to='/Maps/Woods'>
                     <img 
-                        src=''
+                        src='https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/3/3e/Banner_woods.png'
                         className='map-icon'
                         alt='Woods'
                     />
                     <h4 className='map-name'>Woods</h4>
                 </Link>
-            </div> */}
+            </div>
         </div>
     )
 }
