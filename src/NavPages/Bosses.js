@@ -8,7 +8,7 @@ function Bosses () {
             <div className='boss-container'>
                 <Link to='/Bosses/Glukhar'>
                     <img 
-                        src=''
+                        src='https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/44/Gluhar_Portrait.PNG'
                         className='boss-icon'
                         alt='Glukhar'
                         />
@@ -18,7 +18,7 @@ function Bosses () {
             <div className='boss-container'>
                 <Link to='/Bosses/Killa'>
                     <img 
-                        src=''
+                        src='https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/ac/Killa_Portrait.png'
                         className='boss-icon'
                         alt='Killa'
                     />
@@ -28,7 +28,7 @@ function Bosses () {
             <div className='boss-container'>
                 <Link to='/Bosses/Reshala'>
                     <img 
-                        src=''
+                        src='https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/1/1a/Dealmaker_Portrait.png'
                         className='boss-icon'
                         alt='Reshala'
                     />
@@ -38,7 +38,7 @@ function Bosses () {
             <div className='boss-container'>
                 <Link to='/Bosses/Sanitar'>
                     <img 
-                        src=''
+                        src='https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/2/23/Sanitar_Portrait.png'
                         className='boss-icon'
                         alt='Sanitar'
                     />
@@ -48,7 +48,7 @@ function Bosses () {
             <div className='boss-container'>
                 <Link to='/Bosses/Shturman'>
                     <img 
-                        src=''
+                        src='https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/3/3f/Shturman_Portrait.png'
                         className='boss-icon'
                         alt='Shturman'
                     />
@@ -58,7 +58,7 @@ function Bosses () {
             <div className='boss-container'>
                 <Link to='/Bosses/Tagilla'>
                     <img 
-                        src=''
+                        src='https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/5/57/Kuvalda_FactoryBoss_Screenshot.png'
                         className='boss-icon'
                         alt='Tagilla'
                     />
