@@ -2,7 +2,7 @@ import React from "react";
 
 function MapDetails () {
     return (
-        <h1>Boss Details</h1>
+        <h1>Map Details</h1>
     )
 }
 

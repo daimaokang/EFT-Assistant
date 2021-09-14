@@ -106,7 +106,7 @@ function Ammunition () {
                 })}
             </div>
             <div className='caliber-container'>
-                <h2 className='caliber'>7.62x54mm</h2>
+                <h2 className='caliber'>7.62x54mmR</h2>
                 <h5 className='compatible-weapons'>GUNS</h5>
                 {ammo.map( (ammoData) => {
                     if (ammoData.name.split(' ')[0] === '7.62x54R') {

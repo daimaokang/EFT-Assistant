@@ -6,6 +6,8 @@ import Ammunition from "./NavPages/Ammunition";
 import Maps from './NavPages/Maps'
 import Bosses from './NavPages/Bosses'
 import AmmoDetails from "./DetailPages/AmmoDetails";
+import BossDetails from './DetailPages/BossDetails'
+import MapDetails from './DetailPages/MapDetails'
 
 function App() {
   return (
@@ -27,6 +29,12 @@ function App() {
 
       {/* Ammo detail page with details of ammo */}
       <Route path='/Ammunition/:specificAmmo' component={ AmmoDetails } />
+
+      {/* Boss detail page with details of bosses and minions */}
+      <Route path='/Bosses/:specificBoss' component={ BossDetails } />
+
+      {/* Map detail page with details of bosses and minions */}
+      <Route path='/Maps/:specificMap' component={ MapDetails } />
     </div>
   );
 }
