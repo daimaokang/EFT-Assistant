@@ -10,7 +10,8 @@ function Bosses () {
                     <img 
                         src=''
                         className='boss-icon'
-                    />
+                        alt='Glukhar'
+                        />
                     <h4 className='boss-name'>Glukhar</h4>
                 </Link>
             </div>
@@ -19,6 +20,7 @@ function Bosses () {
                     <img 
                         src=''
                         className='boss-icon'
+                        alt='Killa'
                     />
                     <h4 className='boss-name'>Killa</h4>
                 </Link>
@@ -28,6 +30,7 @@ function Bosses () {
                     <img 
                         src=''
                         className='boss-icon'
+                        alt='Reshala'
                     />
                     <h4 className='boss-name'>Reshala</h4>
                 </Link>
@@ -37,6 +40,7 @@ function Bosses () {
                     <img 
                         src=''
                         className='boss-icon'
+                        alt='Sanitar'
                     />
                     <h4 className='boss-name'>Sanitar</h4>
                 </Link>
@@ -46,6 +50,7 @@ function Bosses () {
                     <img 
                         src=''
                         className='boss-icon'
+                        alt='Shturman'
                     />
                     <h4 className='boss-name'>Shturman</h4>
                 </Link>
@@ -55,6 +60,7 @@ function Bosses () {
                     <img 
                         src=''
                         className='boss-icon'
+                        alt='Tagilla'
                     />
                     <h4 className='boss-name'>Tagilla</h4>
                 </Link>

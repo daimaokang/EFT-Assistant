@@ -49,6 +49,7 @@ function Ammunition () {
                                     <img
                                         src={ammoData.iconLink}
                                         className='round-icon'
+                                        alt={ammoData.name}
                                     />
                                     <h4 className='round-name'>
                                         { ammoData.name }
@@ -72,6 +73,7 @@ function Ammunition () {
                                     <img
                                         src={ammoData.iconLink}
                                         className='round-icon'
+                                        alt={ammoData.name}
                                     />
                                     <h4 className='round-name'>
                                         { ammoData.name }
@@ -95,6 +97,7 @@ function Ammunition () {
                                     <img
                                         src={ammoData.iconLink}
                                         className='round-icon'
+                                        alt={ammoData.name}
                                     />
                                     <h4 className='round-name'>
                                         { ammoData.name }
@@ -118,6 +121,7 @@ function Ammunition () {
                                     <img
                                         src={ammoData.iconLink}
                                         className='round-icon'
+                                        alt={ammoData.name}
                                     />
                                     <h4 className='round-name'>
                                         { ammoData.name }
@@ -141,6 +145,7 @@ function Ammunition () {
                                     <img
                                         src={ammoData.iconLink}
                                         className='round-icon'
+                                        alt={ammoData.name}
                                     />
                                     <h4 className='round-name'>
                                         { ammoData.name }
@@ -164,6 +169,7 @@ function Ammunition () {
                                     <img
                                         src={ammoData.iconLink}
                                         className='round-icon'
+                                        alt={ammoData.name}
                                     />
                                     <h4 className='round-name'>
                                         { ammoData.name }
@@ -187,6 +193,7 @@ function Ammunition () {
                                     <img
                                         src={ammoData.iconLink}
                                         className='round-icon'
+                                        alt={ammoData.name}
                                     />
                                     <h4 className='round-name'>
                                         { ammoData.name }
@@ -210,6 +217,7 @@ function Ammunition () {
                                     <img
                                         src={ammoData.iconLink}
                                         className='round-icon'
+                                        alt={ammoData.name}
                                     />
                                     <h4 className='round-name'>
                                         { ammoData.name }
@@ -233,6 +241,7 @@ function Ammunition () {
                                     <img
                                         src={ammoData.iconLink}
                                         className='round-icon'
+                                        alt={ammoData.name}
                                     />
                                     <h4 className='round-name'>
                                         { ammoData.name }
@@ -256,6 +265,7 @@ function Ammunition () {
                                     <img
                                         src={ammoData.iconLink}
                                         className='round-icon'
+                                        alt={ammoData.name}
                                     />
                                     <h4 className='round-name'>
                                         { ammoData.name }
@@ -279,6 +289,7 @@ function Ammunition () {
                                     <img
                                         src={ammoData.iconLink}
                                         className='round-icon'
+                                        alt={ammoData.name}
                                     />
                                     <h4 className='round-name'>
                                         { ammoData.name }
@@ -302,6 +313,7 @@ function Ammunition () {
                                     <img
                                         src={ammoData.iconLink}
                                         className='round-icon'
+                                        alt={ammoData.name}
                                     />
                                     <h4 className='round-name'>
                                         { ammoData.name }
@@ -325,6 +337,7 @@ function Ammunition () {
                                     <img
                                         src={ammoData.iconLink}
                                         className='round-icon'
+                                        alt={ammoData.name}
                                     />
                                     <h4 className='round-name'>
                                         { ammoData.name }
@@ -348,6 +361,7 @@ function Ammunition () {
                                     <img
                                         src={ammoData.iconLink}
                                         className='round-icon'
+                                        alt={ammoData.name}
                                     />
                                     <h4 className='round-name'>
                                         { ammoData.name }
@@ -371,6 +385,7 @@ function Ammunition () {
                                     <img
                                         src={ammoData.iconLink}
                                         className='round-icon'
+                                        alt={ammoData.name}
                                     />
                                     <h4 className='round-name'>
                                         { ammoData.name }
@@ -394,6 +409,7 @@ function Ammunition () {
                                     <img
                                         src={ammoData.iconLink}
                                         className='round-icon'
+                                        alt={ammoData.name}
                                     />
                                     <h4 className='round-name'>
                                         { ammoData.name }
@@ -417,6 +433,7 @@ function Ammunition () {
                                     <img
                                         src={ammoData.iconLink}
                                         className='round-icon'
+                                        alt={ammoData.name}
                                     />
                                     <h4 className='round-name'>
                                         { ammoData.name }
@@ -440,6 +457,7 @@ function Ammunition () {
                                     <img
                                         src={ammoData.iconLink}
                                         className='round-icon'
+                                        alt={ammoData.name}
                                     />
                                     <h4 className='round-name'>
                                         { ammoData.name }
@@ -463,6 +481,7 @@ function Ammunition () {
                                     <img
                                         src={ammoData.iconLink}
                                         className='round-icon'
+                                        alt={ammoData.name}
                                     />
                                     <h4 className='round-name'>
                                         { ammoData.name }
@@ -486,6 +505,7 @@ function Ammunition () {
                                     <img
                                         src={ammoData.iconLink}
                                         className='round-icon'
+                                        alt={ammoData.name}
                                     />
                                     <h4 className='round-name'>
                                         { ammoData.name }
