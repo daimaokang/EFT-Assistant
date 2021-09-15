@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 function AmmoDetails ({ match }) {
     //initialize round data state
-    let [roundData, setRoundData] = useState([[], [0, 'Loading']])
+    let [roundData, setRoundData] = useState([])
     //initialize the second set of data for the round
     let [roundDataTT, setRoundDataTT] = useState([])
 
@@ -13,7 +13,7 @@ function AmmoDetails ({ match }) {
     fetch('https://raw.githubusercontent.com/TarkovTracker/tarkovdata/master/ammunition.json')
         .then (response => response.json())
         // use object.entries to convert object to array. use match params to identify desired round
-        .then(responseJSON => setRoundData(Object.entries(responseJSON[match.params.specificRound])))
+        .then(responseJSON => setRoundData(responseJSON[match.params.specificRound]))
     }
 
     //create function to fetch additional round data from tarkov-tools api, and also set that data to state
@@ -42,18 +42,34 @@ function AmmoDetails ({ match }) {
     }
 
     //utilize useEffect to fetch data on component mount
-    useEffect(() => { fetchAmmoData() }, [])
+    useEffect(() =>  fetchAmmoData(), [])
     //same thing but fetching from api
-    useEffect(() => { fetchRoundDataTT() }, [])
+    useEffect(() => fetchRoundDataTT(), [])
     
     console.log(roundData)
     console.log(roundDataTT)
     
     return (
         <div className='ammo-details-container'>
-            <h1>{roundData[1][1]}</h1>
-            {/* <img 
-                src={`{}`} */}
+            <h1>{roundData.name}</h1>
+            <img 
+                src={`${roundDataTT.imageLink}`}
+                alt={roundData.name}
+            />
+            <div className='performance-data'>
+                <h3>Flesh Damage: { roundData.ballistics.damage }</h3>
+                <h3>Armor Penetration: { roundData.ballistics.penetrationPower }</h3>
+                <h3>Bullet Velocity: { roundData.ballistics.initialSpeed } m/s</h3>
+                <h3>Fragmentation Chance: { roundData.ballistics.fragmentationChance*100 }%</h3>
+                <h3>Accuracy Modifier: { roundData.ballistics.accuracy }%</h3>
+                <h3>Recoil Modifier: { roundData.ballistics.recoil }</h3>
+                <h3>Weight per round: { roundData.weight }kg</h3>
+            </div>
+            <div className='price-data'>
+                <h3>Average Flea-Market Price (past 24hrs): { roundDataTT.avg24hPrice }₽</h3>
+                <h3>Low Flea-Market Price (past 24hrs): { roundDataTT.low24hPrice }₽</h3>
+                <h3>High Flea-Market Price (past 24hrs): { roundDataTT.high24hPrice }₽</h3>
+            </div>
         </div>
     )
 }
