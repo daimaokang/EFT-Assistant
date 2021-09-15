@@ -4,7 +4,7 @@ import Factory from "./MapComponents/Factory";
 import Interchange from "./MapComponents/Interchange";
 import Reserve from "./MapComponents/Reserve";
 import Shoreline from "./MapComponents/Shoreline";
-import The_Lab from "./MapComponents/The_Lab";
+import TheLab from "./MapComponents/TheLab";
 import Woods from "./MapComponents/Woods";
 
 function MapDetails ({ match }) {
@@ -35,7 +35,7 @@ function MapDetails ({ match }) {
     }
     else if (match.params.specificMap === 'The_Lab') {
         return (
-            <The_Lab />
+            <TheLab />
         )
     }
     else if (match.params.specificMap === 'Woods') {

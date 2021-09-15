@@ -6,6 +6,7 @@ function Shoreline () {
             <img 
                 src='https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/e/e1/Actual_caches_37_map_shoreline.jpg'
                 className='map'
+                alt='Shoreline'
             />
         </div>
     )

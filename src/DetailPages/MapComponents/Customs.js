@@ -6,6 +6,7 @@ function Customs () {
             <img 
                 src='https://i.redd.it/8udfaht87zd51.png'
                 className='map'
+                alt='Customs'
             />
         </div>
     )

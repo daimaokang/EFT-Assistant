@@ -6,6 +6,7 @@ function Factory () {
             <img 
                 src='https://i.ytimg.com/vi/zZuPDJk3iAc/maxresdefault.jpg'
                 className='map'
+                alt='Factory'
             />
         </div>
     )
