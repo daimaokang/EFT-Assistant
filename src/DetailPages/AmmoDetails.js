@@ -45,33 +45,35 @@ function AmmoDetails ({ match }) {
     useEffect(() =>  fetchAmmoData(), [])
     //same thing but fetching from api
     useEffect(() => fetchRoundDataTT(), [])
-    
-    console.log(roundData)
-    console.log(roundDataTT)
-    
-    return (
-        <div className='ammo-details-container'>
-            <h1>{roundData.name}</h1>
-            <img 
-                src={`${roundDataTT.imageLink}`}
-                alt={roundData.name}
-            />
-            <div className='performance-data'>
-                <h3>Flesh Damage: { roundData.ballistics.damage }</h3>
-                <h3>Armor Penetration: { roundData.ballistics.penetrationPower }</h3>
-                <h3>Bullet Velocity: { roundData.ballistics.initialSpeed } m/s</h3>
-                <h3>Fragmentation Chance: { roundData.ballistics.fragmentationChance*100 }%</h3>
-                <h3>Accuracy Modifier: { roundData.ballistics.accuracy }%</h3>
-                <h3>Recoil Modifier: { roundData.ballistics.recoil }</h3>
-                <h3>Weight per round: { roundData.weight }kg</h3>
+
+    if((roundData.length < 1) || (roundDataTT.length < 1)){
+        return (<h1>Loading...</h1>)
+    }
+    else {
+        return (
+            <div className='ammo-details-container'>
+                <h1>{roundData.name}</h1>
+                <img 
+                    src={`${roundDataTT.imageLink}`}
+                    alt={roundData.name}
+                />
+                <div className='performance-data'>
+                    <h3>Flesh Damage: { roundData.ballistics.damage }</h3>
+                    <h3>Armor Penetration: { roundData.ballistics.penetrationPower }</h3>
+                    <h3>Bullet Velocity: { roundData.ballistics.initialSpeed } m/s</h3>
+                    <h3>Fragmentation Chance: { roundData.ballistics.fragmentationChance*100 }%</h3>
+                    <h3>Accuracy Modifier: { roundData.ballistics.accuracy }%</h3>
+                    <h3>Recoil Modifier: { roundData.ballistics.recoil }</h3>
+                    <h3>Weight per round: { roundData.weight }kg</h3>
+                </div>
+                <div className='price-data'>
+                    <h3>Average Flea-Market Price (past 24hrs): { roundDataTT.avg24hPrice }₽</h3>
+                    <h3>Low Flea-Market Price (past 24hrs): { roundDataTT.low24hPrice }₽</h3>
+                    <h3>High Flea-Market Price (past 24hrs): { roundDataTT.high24hPrice }₽</h3>
+                </div>
             </div>
-            <div className='price-data'>
-                <h3>Average Flea-Market Price (past 24hrs): { roundDataTT.avg24hPrice }₽</h3>
-                <h3>Low Flea-Market Price (past 24hrs): { roundDataTT.low24hPrice }₽</h3>
-                <h3>High Flea-Market Price (past 24hrs): { roundDataTT.high24hPrice }₽</h3>
-            </div>
-        </div>
-    )
+        )
+    }
 }
 
 export default AmmoDetails
