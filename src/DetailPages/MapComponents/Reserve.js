@@ -4,7 +4,7 @@ function Reserve () {
     return (
         <div className='map-details-container'>
             <img 
-                src='https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/42/3D_Map_by_loweffortsaltbox.png'
+                src='https://tarkov-tools.com/maps/reserve.jpg'
                 className='map'
                 alt='Reserve'
             />

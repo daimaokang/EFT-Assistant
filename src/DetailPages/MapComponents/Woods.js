@@ -4,7 +4,7 @@ function Woods () {
     return (
         <div className='map-details-container'>
             <img 
-                src='https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/05/Glory4lyfeWoods_map_v4_marked.png'
+                src='https://tarkov-tools.com/maps/woods.jpg'
                 className='map'
                 alt='Woods'
             />

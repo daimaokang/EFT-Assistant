@@ -6,7 +6,7 @@ function Header () {
         // header that has links to main pages
         <header>
             <Link to='/'>
-                <h1>Escape From Tarkov Assistant</h1>
+                <h3>Escape From Tarkov Assistant</h3>
             </Link>
         </header>
     )
