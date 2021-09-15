@@ -1,25 +1,18 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Link } from 'react-router-dom'
 
 function Maps () {
-    //initialize maps state
-    let [maps, setMaps] = useState({})
-
-    //fetch data from public github repository
-    //idea to utilize raw link from https://stackoverflow.com/questions/63131453/how-to-fetch-data-from-a-particular-github-txt-file-in-html-page-via-javascript
-    function fetchMaps() {
-    fetch('https://raw.githubusercontent.com/TarkovTracker/tarkovdata/master/maps.json')
-        .then (response => response.json())
-        .then(responseJSON => setMaps(responseJSON))
-    }
-    useEffect(() => { fetchMaps() }, [])
-    console.log(maps)
-    console.log(Object.entries(maps))
     return (
+        //wrap in dive for one output element
         <div className='maps-container'>
+
+            {/* title of page */}
             <h1>Maps</h1>
 
+            {/* wrap each map preview in a div */}
             <div className='map-container'>
+
+                {/* link to the map details page. I want the the whole preview to be clickable */}
                 <Link to='/Maps/Customs'>
                     <img 
                         src='https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/9/9f/Customs_Banner.png'
@@ -29,14 +22,18 @@ function Maps () {
                     <h4 className='map-name'>Customs</h4>
                 </Link>
             </div>
+
             <div className='map-container'>
                 <Link to='/Maps/Factory'>
                     <img 
                         src='https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/1/1a/Factory-Day_Banner.png'
+                        className='map-icon'
+                        alt='Factory'
                     />
                     <h4 className='map-name'>Factory</h4>
                 </Link>
             </div>
+            
             <div className='map-container'>
                 <Link to='/Maps/Interchange'>
                     <img 
@@ -47,6 +44,7 @@ function Maps () {
                     <h4 className='map-name'>Interchange</h4>
                 </Link>
             </div>
+            
             <div className='map-container'>
                 <Link to='/Maps/The_Lab'>
                     <img 
@@ -57,6 +55,7 @@ function Maps () {
                     <h4 className='map-name'>The Lab</h4>
                 </Link>
             </div>
+            
             <div className='map-container'>
                 <Link to='/Maps/Reserve'>
                     <img 
@@ -67,6 +66,7 @@ function Maps () {
                     <h4 className='map-name'>Reserve</h4>
                 </Link>
             </div>
+            
             <div className='map-container'>
                 <Link to='/Maps/Shoreline'>
                     <img 
@@ -77,6 +77,7 @@ function Maps () {
                     <h4 className='map-name'>Shoreline</h4>
                 </Link>
             </div>
+            
             <div className='map-container'>
                 <Link to='/Maps/Woods'>
                     <img 
@@ -87,6 +88,7 @@ function Maps () {
                     <h4 className='map-name'>Woods</h4>
                 </Link>
             </div>
+        
         </div>
     )
 }

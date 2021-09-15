@@ -4,7 +4,7 @@ function Factory () {
     return (
         <div className='map-details-container'>
             <img 
-                src=''
+                src='https://i.ytimg.com/vi/zZuPDJk3iAc/maxresdefault.jpg'
                 className='map'
             />
         </div>

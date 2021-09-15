@@ -4,7 +4,7 @@ function Customs () {
     return (
         <div className='map-details-container'>
             <img 
-                src=''
+                src='https://i.redd.it/8udfaht87zd51.png'
                 className='map'
             />
         </div>
