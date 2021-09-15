@@ -5,6 +5,13 @@ function Ammunition () {
     //initialize ammo data state
     let [ammo, setAmmo] = useState([])
 
+    //create error function
+    function tellError (error) {
+        return (
+            <h1>{error}</h1>
+        )
+    }
+
     //create function to fetch ammo data from tarkov-tools api and store it in smmo state
     function fetchAmmoTT () {        
         //copy paste fetch request from Browser JS example in documentation at tarkov-tools.com/api/
@@ -23,7 +30,8 @@ function Ammunition () {
             }`})
         })
             .then(response => response.json())
-            .then(responseJSON => setAmmo(responseJSON.data.itemsByType));
+            .then(responseJSON => setAmmo(responseJSON.data.itemsByType))
+            .catch(error => {tellError(error)})
     }
 
     //utilize useEffect to fetch data on component mount

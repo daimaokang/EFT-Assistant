@@ -6,6 +6,13 @@ function AmmoDetails ({ match }) {
     //initialize the second set of data for the round
     let [roundDataTT, setRoundDataTT] = useState([])
 
+    //create error function
+    function tellError (error) {
+        return (
+            <h1>{error}</h1>
+        )
+    }
+
     //fetch data from public github repository
     //idea to utilize raw link from https://stackoverflow.com/questions/63131453/how-to-fetch-data-from-a-particular-github-txt-file-in-html-page-via-javascript
     //it is called ammo data becuase the response has data on all ammo, not just desired round
@@ -14,6 +21,7 @@ function AmmoDetails ({ match }) {
         .then (response => response.json())
         // use object.entries to convert object to array. use match params to identify desired round
         .then(responseJSON => setRoundData(responseJSON[match.params.specificRound]))
+        .catch(error => {tellError(error)})
     }
 
     //create function to fetch additional round data from tarkov-tools api, and also set that data to state
@@ -38,8 +46,9 @@ function AmmoDetails ({ match }) {
             }`})
         })
             .then(response => response.json())
-            .then(responseJSON => setRoundDataTT(responseJSON.data.item));
-    }
+            .then(responseJSON => setRoundDataTT(responseJSON.data.item))
+            .catch(error => {tellError(error)})
+        }
 
     //utilize useEffect to fetch data on component mount
     useEffect(() =>  fetchAmmoData(), [])
