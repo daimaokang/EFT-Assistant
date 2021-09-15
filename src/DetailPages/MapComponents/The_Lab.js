@@ -1,6 +1,6 @@
 import React from "react";
 
-function Customs () {
+function The_Lab () {
     return (
         <div className='map-details-container'>
             <img 
@@ -11,4 +11,4 @@ function Customs () {
     )
 }
 
-export default Customs
+export default The_Lab

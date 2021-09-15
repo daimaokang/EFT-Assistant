@@ -48,7 +48,7 @@ function Maps () {
                 </Link>
             </div>
             <div className='map-container'>
-                <Link to='/Maps/The-Lab'>
+                <Link to='/Maps/The_Lab'>
                     <img 
                         src='https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/d/d7/TheLabBanner.png'
                         className='map-icon'
