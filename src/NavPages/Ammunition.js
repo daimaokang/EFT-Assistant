@@ -60,7 +60,7 @@ function Ammunition () {
                                 </div>
                             )
                         }
-                        return (<h4>Loading...</h4>)
+                        else return(<p key={ ammoData.id } />)
                     })}
                 </div>
                 <div className='caliber-container'>
@@ -85,7 +85,7 @@ function Ammunition () {
                                 </div>
                             )
                         }
-                        return (<h4>Loading...</h4>)
+                        else return(<p key={ ammoData.id } />)
                     })}
                 </div>
                 <div className='caliber-container'>
@@ -110,7 +110,7 @@ function Ammunition () {
                                 </div>
                             )
                         }
-                        return (<h4>Loading...</h4>)
+                        else return(<p key={ ammoData.id } />)
                     })}
                 </div>
                 <div className='caliber-container'>
@@ -135,7 +135,7 @@ function Ammunition () {
                                 </div>
                             )
                         }
-                        return (<h4>Loading...</h4>)
+                        else return(<p key={ ammoData.id } />)
                     })}
                 </div>
                 <div className='caliber-container'>
@@ -160,7 +160,7 @@ function Ammunition () {
                                 </div>
                             )
                         }
-                        return (<h4>Loading...</h4>)
+                        else return(<p key={ ammoData.id } />)
                     })}
                 </div>
                 <div className='caliber-container'>
@@ -185,7 +185,7 @@ function Ammunition () {
                                 </div>
                             )
                         }
-                        return (<h4>Loading...</h4>)
+                        else return(<p key={ ammoData.id } />)
                     })}
                 </div>
                 <div className='caliber-container'>
@@ -210,7 +210,7 @@ function Ammunition () {
                                 </div>
                             )
                         }
-                        return (<h4>Loading...</h4>)
+                        else return(<p key={ ammoData.id } />)
                     })}
                 </div>
                 <div className='caliber-container'>
@@ -235,7 +235,7 @@ function Ammunition () {
                                 </div>
                             )
                         }
-                        return (<h4>Loading...</h4>)
+                        else return(<p key={ ammoData.id } />)
                     })}
                 </div>
                 <div className='caliber-container'>
@@ -260,7 +260,7 @@ function Ammunition () {
                                 </div>
                             )
                         }
-                        return (<h4>Loading...</h4>)
+                        else return(<p key={ ammoData.id } />)
                     })}
                 </div>
                 <div className='caliber-container'>
@@ -285,7 +285,7 @@ function Ammunition () {
                                 </div>
                             )
                         }
-                        return (<h4>Loading...</h4>)
+                        else return(<p key={ ammoData.id } />)
                     })}
                 </div>
                 <div className='caliber-container'>
@@ -310,7 +310,7 @@ function Ammunition () {
                                 </div>
                             )
                         }
-                        return (<h4>Loading...</h4>)
+                        else return(<p key={ ammoData.id } />)
                     })}
                 </div>
                 <div className='caliber-container'>
@@ -335,7 +335,7 @@ function Ammunition () {
                                 </div>
                             )
                         }
-                        return (<h4>Loading...</h4>)
+                        else return(<p key={ ammoData.id } />)
                     })}
                 </div>
                 <div className='caliber-container'>
@@ -360,7 +360,7 @@ function Ammunition () {
                                 </div>
                             )
                         }
-                        return (<h4>Loading...</h4>)
+                        else return(<p key={ ammoData.id } />)
                     })}
                 </div>
                 <div className='caliber-container'>
@@ -385,7 +385,7 @@ function Ammunition () {
                                 </div>
                             )
                         }
-                        return (<h4>Loading...</h4>)
+                        else return(<p key={ ammoData.id } />)
                     })}
                 </div>
                 <div className='caliber-container'>
@@ -410,7 +410,7 @@ function Ammunition () {
                                 </div>
                             )
                         }
-                        return (<h4>Loading...</h4>)
+                        else return(<p key={ ammoData.id } />)
                     })}
                 </div>
                 <div className='caliber-container'>
@@ -435,7 +435,7 @@ function Ammunition () {
                                 </div>
                             )
                         }
-                        return (<h4>Loading...</h4>)
+                        else return(<p key={ ammoData.id } />)
                     })}
                 </div>
                 <div className='caliber-container'>
@@ -460,7 +460,7 @@ function Ammunition () {
                                 </div>
                             )
                         }
-                        return (<h4>Loading...</h4>)
+                        else return(<p key={ ammoData.id } />)
                     })}
                 </div>
                 <div className='caliber-container'>
@@ -485,7 +485,7 @@ function Ammunition () {
                                 </div>
                             )
                         }
-                        return (<h4>Loading...</h4>)
+                        else return(<p key={ ammoData.id } />)
                     })}
                 </div>
                 <div className='caliber-container'>
@@ -510,7 +510,7 @@ function Ammunition () {
                                 </div>
                             )
                         }
-                        return (<h4>Loading...</h4>)
+                        else return(<p key={ ammoData.id } />)
                     })}
                 </div>
                 <div className='caliber-container'>
@@ -535,7 +535,7 @@ function Ammunition () {
                                 </div>
                             )
                         }
-                        return (<h4>Loading...</h4>)
+                        else return(<p key={ ammoData.id } />)
                     })}
                 </div>
             </div>
