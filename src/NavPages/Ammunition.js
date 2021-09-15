@@ -60,6 +60,7 @@ function Ammunition () {
                                 </div>
                             )
                         }
+                        return (<h4>Loading...</h4>)
                     })}
                 </div>
                 <div className='caliber-container'>
@@ -84,6 +85,7 @@ function Ammunition () {
                                 </div>
                             )
                         }
+                        return (<h4>Loading...</h4>)
                     })}
                 </div>
                 <div className='caliber-container'>
@@ -108,6 +110,7 @@ function Ammunition () {
                                 </div>
                             )
                         }
+                        return (<h4>Loading...</h4>)
                     })}
                 </div>
                 <div className='caliber-container'>
@@ -132,6 +135,7 @@ function Ammunition () {
                                 </div>
                             )
                         }
+                        return (<h4>Loading...</h4>)
                     })}
                 </div>
                 <div className='caliber-container'>
@@ -156,6 +160,7 @@ function Ammunition () {
                                 </div>
                             )
                         }
+                        return (<h4>Loading...</h4>)
                     })}
                 </div>
                 <div className='caliber-container'>
@@ -180,6 +185,7 @@ function Ammunition () {
                                 </div>
                             )
                         }
+                        return (<h4>Loading...</h4>)
                     })}
                 </div>
                 <div className='caliber-container'>
@@ -204,6 +210,7 @@ function Ammunition () {
                                 </div>
                             )
                         }
+                        return (<h4>Loading...</h4>)
                     })}
                 </div>
                 <div className='caliber-container'>
@@ -228,6 +235,7 @@ function Ammunition () {
                                 </div>
                             )
                         }
+                        return (<h4>Loading...</h4>)
                     })}
                 </div>
                 <div className='caliber-container'>
@@ -252,6 +260,7 @@ function Ammunition () {
                                 </div>
                             )
                         }
+                        return (<h4>Loading...</h4>)
                     })}
                 </div>
                 <div className='caliber-container'>
@@ -276,6 +285,7 @@ function Ammunition () {
                                 </div>
                             )
                         }
+                        return (<h4>Loading...</h4>)
                     })}
                 </div>
                 <div className='caliber-container'>
@@ -300,6 +310,7 @@ function Ammunition () {
                                 </div>
                             )
                         }
+                        return (<h4>Loading...</h4>)
                     })}
                 </div>
                 <div className='caliber-container'>
@@ -324,6 +335,7 @@ function Ammunition () {
                                 </div>
                             )
                         }
+                        return (<h4>Loading...</h4>)
                     })}
                 </div>
                 <div className='caliber-container'>
@@ -348,6 +360,7 @@ function Ammunition () {
                                 </div>
                             )
                         }
+                        return (<h4>Loading...</h4>)
                     })}
                 </div>
                 <div className='caliber-container'>
@@ -372,6 +385,7 @@ function Ammunition () {
                                 </div>
                             )
                         }
+                        return (<h4>Loading...</h4>)
                     })}
                 </div>
                 <div className='caliber-container'>
@@ -396,6 +410,7 @@ function Ammunition () {
                                 </div>
                             )
                         }
+                        return (<h4>Loading...</h4>)
                     })}
                 </div>
                 <div className='caliber-container'>
@@ -420,6 +435,7 @@ function Ammunition () {
                                 </div>
                             )
                         }
+                        return (<h4>Loading...</h4>)
                     })}
                 </div>
                 <div className='caliber-container'>
@@ -444,6 +460,7 @@ function Ammunition () {
                                 </div>
                             )
                         }
+                        return (<h4>Loading...</h4>)
                     })}
                 </div>
                 <div className='caliber-container'>
@@ -468,6 +485,7 @@ function Ammunition () {
                                 </div>
                             )
                         }
+                        return (<h4>Loading...</h4>)
                     })}
                 </div>
                 <div className='caliber-container'>
@@ -492,6 +510,7 @@ function Ammunition () {
                                 </div>
                             )
                         }
+                        return (<h4>Loading...</h4>)
                     })}
                 </div>
                 <div className='caliber-container'>
@@ -516,6 +535,7 @@ function Ammunition () {
                                 </div>
                             )
                         }
+                        return (<h4>Loading...</h4>)
                     })}
                 </div>
             </div>
