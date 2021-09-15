@@ -1,39 +1,41 @@
 import React, { useState, useEffect } from "react";
 
-function AmmoDetails () {
-    //initialize ammo data state
-    let [ammo, setAmmo] = useState([])
+function AmmoDetails ({ match }) {
+    //initialize ammo state
+    let [ammoData, setAmmoData] = useState({})
+    //initialize round data state
+    let [roundData, setRoundData] = useState({})
 
-    //create function to fetch ammo data from tarkov-tools api and store it in smmo state
-    function fetchAmmoTT () {        
-        //copy paste fetch request from Browser JS example in documentation at tarkov-tools.com/api/
-        fetch('https://tarkov-tools.com/graphql', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'Accept': 'application/json',
-            },
-            body: JSON.stringify({query: `{
-                item(id: 54527ac44bdc2d36668b4567) {
-                    id
-                    name
-                    normalizedName
-                    iconLink
-                    link
-                }
-            }`})
-        })
-            .then(response => response.json())
-            .then(responseJSON => setAmmo(responseJSON));
+    //fetch data from public github repository
+    //idea to utilize raw link from https://stackoverflow.com/questions/63131453/how-to-fetch-data-from-a-particular-github-txt-file-in-html-page-via-javascript
+    function fetchAmmoData() {
+    fetch('https://raw.githubusercontent.com/TarkovTracker/tarkovdata/master/ammunition.json')
+        .then (response => response.json())
+        .then(responseJSON => setAmmoData(responseJSON))
+    }
+
+    //create function to set round data according to match params and ammo data
+    function defineRound() {
+        let temporaryVariableForID = match.params.specificRound
+        setRoundData(ammoData[temporaryVariableForID])
     }
 
     //utilize useEffect to fetch data on component mount
-    useEffect(() => { fetchAmmoTT() }, [])
+    useEffect(() => { fetchAmmoData() }, [])
+
+    useEffect(() => { defineRound() }, Object.entries(ammoData))
     
-    console.log(ammo)
+    console.log(ammoData)
+    console.log(Object.entries(ammoData))
+
+    console.log(roundData)
     
     return (
-        <h1>Ammo Details</h1>
+        <div classname='ammo-details-container'>
+            <h1>{roundData.name}</h1>
+            {/* <img 
+                src={`{}`} */}
+        </div>
     )
 }
 

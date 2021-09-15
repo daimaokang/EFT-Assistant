@@ -44,7 +44,7 @@ function Ammunition () {
                         return(
                             <div className='round-container' key={ammoData.id}>
                                 <Link
-                                    to={`/Ammunition/${ammoData.normalizedName}`}
+                                    to={`/Ammunition/${ammoData.id}`}
                                 >
                                     <img
                                         src={ammoData.iconLink}
@@ -68,7 +68,7 @@ function Ammunition () {
                         return(
                             <div className='round-container' key={ammoData.id}>
                                 <Link
-                                    to={`/Ammunition/${ammoData.normalizedName}`}
+                                    to={`/Ammunition/${ammoData.id}`}
                                 >
                                     <img
                                         src={ammoData.iconLink}
@@ -92,7 +92,7 @@ function Ammunition () {
                         return(
                             <div className='round-container' key={ammoData.id}>
                                 <Link
-                                    to={`/Ammunition/${ammoData.normalizedName}`}
+                                    to={`/Ammunition/${ammoData.id}`}
                                 >
                                     <img
                                         src={ammoData.iconLink}
@@ -116,7 +116,7 @@ function Ammunition () {
                         return(
                             <div className='round-container' key={ammoData.id}>
                                 <Link
-                                    to={`/Ammunition/${ammoData.normalizedName}`}
+                                    to={`/Ammunition/${ammoData.id}`}
                                 >
                                     <img
                                         src={ammoData.iconLink}
@@ -140,7 +140,7 @@ function Ammunition () {
                         return(
                             <div className='round-container' key={ammoData.id}>
                                 <Link
-                                    to={`/Ammunition/${ammoData.normalizedName}`}
+                                    to={`/Ammunition/${ammoData.id}`}
                                 >
                                     <img
                                         src={ammoData.iconLink}
@@ -164,7 +164,7 @@ function Ammunition () {
                         return(
                             <div className='round-container' key={ammoData.id}>
                                 <Link
-                                    to={`/Ammunition/${ammoData.normalizedName}`}
+                                    to={`/Ammunition/${ammoData.id}`}
                                 >
                                     <img
                                         src={ammoData.iconLink}
@@ -188,7 +188,7 @@ function Ammunition () {
                         return(
                             <div className='round-container' key={ammoData.id}>
                                 <Link
-                                    to={`/Ammunition/${ammoData.normalizedName}`}
+                                    to={`/Ammunition/${ammoData.id}`}
                                 >
                                     <img
                                         src={ammoData.iconLink}
@@ -212,7 +212,7 @@ function Ammunition () {
                         return(
                             <div className='round-container' key={ammoData.id}>
                                 <Link
-                                    to={`/Ammunition/${ammoData.normalizedName}`}
+                                    to={`/Ammunition/${ammoData.id}`}
                                 >
                                     <img
                                         src={ammoData.iconLink}
@@ -236,7 +236,7 @@ function Ammunition () {
                         return(
                             <div className='round-container' key={ammoData.id}>
                                 <Link
-                                    to={`/Ammunition/${ammoData.normalizedName}`}
+                                    to={`/Ammunition/${ammoData.id}`}
                                 >
                                     <img
                                         src={ammoData.iconLink}
@@ -260,7 +260,7 @@ function Ammunition () {
                         return(
                             <div className='round-container' key={ammoData.id}>
                                 <Link
-                                    to={`/Ammunition/${ammoData.normalizedName}`}
+                                    to={`/Ammunition/${ammoData.id}`}
                                 >
                                     <img
                                         src={ammoData.iconLink}
@@ -284,7 +284,7 @@ function Ammunition () {
                         return(
                             <div className='round-container' key={ammoData.id}>
                                 <Link
-                                    to={`/Ammunition/${ammoData.normalizedName}`}
+                                    to={`/Ammunition/${ammoData.id}`}
                                 >
                                     <img
                                         src={ammoData.iconLink}
@@ -308,7 +308,7 @@ function Ammunition () {
                         return(
                             <div className='round-container' key={ammoData.id}>
                                 <Link
-                                    to={`/Ammunition/${ammoData.normalizedName}`}
+                                    to={`/Ammunition/${ammoData.id}`}
                                 >
                                     <img
                                         src={ammoData.iconLink}
@@ -332,7 +332,7 @@ function Ammunition () {
                         return(
                             <div className='round-container' key={ammoData.id}>
                                 <Link
-                                    to={`/Ammunition/${ammoData.normalizedName}`}
+                                    to={`/Ammunition/${ammoData.id}`}
                                 >
                                     <img
                                         src={ammoData.iconLink}
@@ -356,7 +356,7 @@ function Ammunition () {
                         return(
                             <div className='round-container' key={ammoData.id}>
                                 <Link
-                                    to={`/Ammunition/${ammoData.normalizedName}`}
+                                    to={`/Ammunition/${ammoData.id}`}
                                 >
                                     <img
                                         src={ammoData.iconLink}
@@ -380,7 +380,7 @@ function Ammunition () {
                         return(
                             <div className='round-container' key={ammoData.id}>
                                 <Link
-                                    to={`/Ammunition/${ammoData.normalizedName}`}
+                                    to={`/Ammunition/${ammoData.id}`}
                                 >
                                     <img
                                         src={ammoData.iconLink}
@@ -404,7 +404,7 @@ function Ammunition () {
                         return(
                             <div className='round-container' key={ammoData.id}>
                                 <Link
-                                    to={`/Ammunition/${ammoData.normalizedName}`}
+                                    to={`/Ammunition/${ammoData.id}`}
                                 >
                                     <img
                                         src={ammoData.iconLink}
@@ -428,7 +428,7 @@ function Ammunition () {
                         return(
                             <div className='round-container' key={ammoData.id}>
                                 <Link
-                                    to={`/Ammunition/${ammoData.normalizedName}`}
+                                    to={`/Ammunition/${ammoData.id}`}
                                 >
                                     <img
                                         src={ammoData.iconLink}
@@ -452,7 +452,7 @@ function Ammunition () {
                         return(
                             <div className='round-container' key={ammoData.id}>
                                 <Link
-                                    to={`/Ammunition/${ammoData.normalizedName}`}
+                                    to={`/Ammunition/${ammoData.id}`}
                                 >
                                     <img
                                         src={ammoData.iconLink}
@@ -476,7 +476,7 @@ function Ammunition () {
                         return(
                             <div className='round-container' key={ammoData.id}>
                                 <Link
-                                    to={`/Ammunition/${ammoData.normalizedName}`}
+                                    to={`/Ammunition/${ammoData.id}`}
                                 >
                                     <img
                                         src={ammoData.iconLink}
@@ -500,7 +500,7 @@ function Ammunition () {
                         return(
                             <div className='round-container' key={ammoData.id}>
                                 <Link
-                                    to={`/Ammunition/${ammoData.normalizedName}`}
+                                    to={`/Ammunition/${ammoData.id}`}
                                 >
                                     <img
                                         src={ammoData.iconLink}

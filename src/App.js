@@ -28,7 +28,7 @@ function App() {
       <Route path='/Bosses' exact={ true } component={ Bosses } />
 
       {/* Ammo detail page with details of ammo */}
-      <Route path='/Ammunition/:specificAmmo' component={ AmmoDetails } />
+      <Route path='/Ammunition/:specificRound' component={ AmmoDetails } />
 
       {/* Boss detail page with details of bosses and minions */}
       <Route path='/Bosses/:specificBoss' component={ BossDetails } />
